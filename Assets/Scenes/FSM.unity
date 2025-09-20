@@ -522,6 +522,7 @@ GameObject:
   - component: {fileID: 606524907}
   - component: {fileID: 606524906}
   - component: {fileID: 606524905}
+  - component: {fileID: 606524911}
   m_Layer: 0
   m_Name: EnemyTank
   m_TagString: Untagged
@@ -670,6 +671,20 @@ Transform:
   - {fileID: 1867518128}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -180.25099, z: 0}
+--- !u!114 &606524911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606524904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e9fb4ddcc7d874f9d9ccd43a14539d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0
+  rotateSpeed: 0
 --- !u!1 &642098263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,15 +1244,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4967583615090912, guid: 9b4cbb0b3fdc35a41854150787f02766, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967583615090912, guid: 9b4cbb0b3fdc35a41854150787f02766, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967583615090912, guid: 9b4cbb0b3fdc35a41854150787f02766, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967583615090912, guid: 9b4cbb0b3fdc35a41854150787f02766, type: 3}
       propertyPath: m_LocalPosition.x
